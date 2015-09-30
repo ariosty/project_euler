@@ -1,0 +1,12 @@
+Let
+  S1 = sum of multiples of 3 under 1000
+  S2 = sum of multiples of 5 under 1000
+  S3 = sum of multiples of 15 under 1000
+  S  = sum of multiples of 3 or 5 under 1000
+Then
+  S = S1 + S2 - S3
+
+S1 = (3 + 999) * 333 / 2 = 166833
+S2 = (5 + 995) * 199 / 2 = 99500
+S3 = (15 + 990) * 66 / 2 = 33165
+S = 166833 + 99500 - 33165 = 233168
