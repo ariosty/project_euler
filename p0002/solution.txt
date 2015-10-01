@@ -1,4 +1,7 @@
 Starting with 1 and 2, divide each number in Fibonacci sequence by 2 and list the remainder below:
+
 1, 0, 1, 1, 0, 1, 1, 0, ...
+
 Note that the (3n + 1)th remainder is 0, where n is a natural number.
+
 Therefore, instead of the two-variable approach, I employed a three-variable approach to getting Fibonacci numbers.
