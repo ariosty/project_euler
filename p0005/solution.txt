@@ -1,0 +1,11 @@
+For any integer m >= 2, if the prime factorization of m is
+m = p1^a1 * p2^a2 * ... * ps^as
+where p1 ... ps are distinct primes and a1 ... as are positive integers
+then m divides n if and only if the prime factorization of n is
+n = p1^b1 * p2^b2 * ... * ps^bs * q1^c1 * q2^c2 * ... * qt^ct
+where bi >= ai for each i in [1, s], and
+      b1, b2, ..., bs, c1, c2, ... , ct are positive integers, and
+      p1, p2, ... , ps, q1, q2, ... , qs are distinct primes.
+
+Use the above result, the desired number is
+2^4 * 3^2 * 5 * 7 * 11 * 13 * 17 * 19

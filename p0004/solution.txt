@@ -1,0 +1,7 @@
+The product of two 3-digit integers lies in the range [10000, 998001]. To find the largest palindrome, let us assume that this number is greater than 900000. To be a palindrome, it must be 9xyyx9, where 0 <= x, y <= 9.
+
+Since the number is over 900000, both 3-digit integers must be over 900.
+
+On the other hand, since the unit digit is 9, the 3-digit integers should be 9m3 * 9n3 or 9p1 * 9q9.
+
+These observations narrow down the initial search. (In fact, there is only one number that meets all these requirements.)

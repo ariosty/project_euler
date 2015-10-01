@@ -1,3 +1,3 @@
 Remark for problem 3
 
-Using sqrt(N) directly would result in segfault. Therefore, by trying to divide N with primes under 1000, I got the quotient 10086647. At least one of its prime factors should be below sqrt(10086647) = 3176, hence the upper limit of 10000.
+Using sqrt(N) directly would result in segfault. Therefore, by trying to divide N with primes under 1000, I got the quotient 10086647. At least one of its prime factors should be below sqrt(10086647) = 3176 if it is a composite, hence the upper limit of 10000.
